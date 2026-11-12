@@ -1,0 +1,177 @@
+{
+  "title": "IOM420 · The Like-for-Like Which Wasn’t",
+  "goals": [
+    "Identify stakeholders and explain the evidence.",
+    "Analyse participation gaps and communication strategies.",
+    "Make ethical and professional judgements within approval boundaries."
+  ],
+  "case": {
+    "public": "An organisation plans to standardise its printers and drivers. Business users were told that daily use would not change significantly. The project coordination team must judge whether stakeholder participation is sufficient and which impacts still require confirmation.",
+    "teacher_only": "The source case later describes departmental refusal to participate and a delay of approximately two years. Do not reveal the outcome in the initial student materials.",
+    "unknowns": [
+      "Budget, benefits and risk probabilities are not supplied.",
+      "Views from all departments have not been obtained.",
+      "The full approval authority remains to be confirmed."
+    ]
+  },
+  "roles": [
+    {
+      "id": "nora",
+      "name": "Nora",
+      "background": "Project sponsor; resource efficiency and cross-department coordination",
+      "authority": "May coordinate evaluation; cannot approve charging changes or additional budget",
+      "conditions": "May support the next step once impacts and authority are clear"
+    },
+    {
+      "id": "ethan",
+      "name": "Ethan",
+      "background": "IT implementation lead; device and driver coordination",
+      "authority": "May explain technical options; cannot decide business charging rules",
+      "conditions": "Requires testing, business confirmation and rework arrangements"
+    },
+    {
+      "id": "maya",
+      "name": "Maya",
+      "background": "Business department representative; operations and costs",
+      "authority": "Represents this department only; cannot consent for every department",
+      "conditions": "Requires clear departmental impacts and meaningful participation"
+    },
+    {
+      "id": "leo",
+      "name": "Leo",
+      "background": "Frontline user representative; practical operating experience",
+      "authority": "May explain needs and participate in validation; cannot approve business policy",
+      "conditions": "Requires usability validation and an owner for follow-up"
+    }
+  ],
+  "questions": [
+    "When technical replacement changes business arrangements, is the original stakeholder analysis still sufficient?",
+    "How should stakeholder engagement arrangements be updated?"
+  ],
+  "task": [
+    "State a one-sentence judgement about the current project.",
+    "Identify three priority stakeholder groups and give reasons.",
+    "Propose two actions with owners, approval conditions and checks.",
+    "Record one unresolved disagreement or risk."
+  ],
+  "assessment": {
+    "selected": [
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "rubric_version": "MD_EMBEDDED_V1_1_UNCONFIRMED",
+    "knowledge": [
+      "Stakeholder identification",
+      "Engagement gaps",
+      "Authority and ethics"
+    ],
+    "rubric": {
+      "version": "MD_EMBEDDED_V1_1_UNCONFIRMED",
+      "source_sha256": "2db0fcb4e2e3ba20998947f27580c0c697f443296f51e40241d24b1f4797f3f5",
+      "independent_v1_1_baseline_verified": false,
+      "dimensions": [
+        {
+          "dimension": "C1",
+          "source_line": 230,
+          "levels": {
+            "1": "Given opportunities, repeatedly goes off topic or makes points that are difficult to understand.",
+            "2": "Offers a basic view, but reasons or responses lack clarity.",
+            "3": "States a clear position with reasons directly relevant to the question.",
+            "4": "Explains trade-offs concisely under questioning and clarifies misunderstandings."
+          }
+        },
+        {
+          "dimension": "C2",
+          "source_line": 231,
+          "levels": {
+            "1": "Given clear opportunities, persistently ignores or misrepresents key views.",
+            "2": "Restates some views, but clarification and integration are incomplete.",
+            "3": "Accurately takes up another person's point and uses it to advance discussion.",
+            "4": "Synthesises different views, clarifies disagreement and creates appropriate opportunities to contribute."
+          }
+        },
+        {
+          "dimension": "C3",
+          "source_line": 232,
+          "levels": {
+            "1": "Ignores an explicit budget or presents unsupported assumptions as facts.",
+            "2": "Uses some information, but comparison of options or risk treatment is incomplete.",
+            "3": "Uses relevant evidence to compare options and explains constraints and unknowns.",
+            "4": "Checks measures and key assumptions; maintains or revises a judgement with reasons when new evidence emerges."
+          }
+        },
+        {
+          "dimension": "C4",
+          "source_line": 233,
+          "levels": {
+            "1": "Given clear opportunities, suppresses others' views or responds to disagreement inappropriately.",
+            "2": "Responds politely but rarely integrates differing views.",
+            "3": "Handles disagreement constructively and helps the team reach workable agreement.",
+            "4": "Turns conflict into shared criteria, supports sound team decisions and addresses barriers to participation."
+          }
+        },
+        {
+          "dimension": "C5",
+          "source_line": 234,
+          "levels": {
+            "1": "Acts proactively but repeatedly departs from the task, or imposes decisions on everyone.",
+            "2": "Proposes an action or framework but provides limited follow-through.",
+            "3": "Organises steps at an appropriate time, obtains responses and advances shared goals.",
+            "4": "Adapts the process as discussion changes and helps the team move forward independently."
+          }
+        },
+        {
+          "dimension": "C6",
+          "source_line": 235,
+          "levels": {
+            "1": "Disregards explicit task or time reminders, taking contributions away from the deliverable.",
+            "2": "Notices a progress issue but does not effectively narrow the discussion.",
+            "3": "Adjusts priorities reasonably and preserves time to summarise.",
+            "4": "Reprioritises after events, explaining conclusions, risks and unresolved matters."
+          }
+        }
+      ],
+      "levels_are_ordinal": true,
+      "no_total_score": true,
+      "no_srl_score": true,
+      "translation_note": "English rendering of the source rubric for teacher review; the original source and unconfirmed baseline status are retained."
+    }
+  },
+  "runtime": {
+    "seconds": 900,
+    "event_enabled": true,
+    "event_at": 360,
+    "event_text": "ADDED TEACHING SIMULATION: The project team formally proposes equipment changes and pay-per-use charging. Only one business representative previously acknowledged the technical update. Business impacts have not been systematically confirmed, and implementation has not been approved.",
+    "difficulty": "Standard",
+    "prompt_intensity": "Light",
+    "role_pacing": "One role at a time; 1–3 sentences, leaving students an opportunity to respond.",
+    "help_policy": "Role-based questions, clarification and comparison of trade-offs. Record conceptual explanations or answer hints as teaching support."
+  },
+  "feedback": {
+    "mode": "review",
+    "allow_skip": true,
+    "share_group": true,
+    "detail": "Concise narrative with expandable evidence",
+    "teacher_focus": "Knowledge application, engagement gaps, approval boundaries and actionable next steps"
+  },
+  "source": {
+    "route": "TEXTBOOK_EXISTING",
+    "references": [
+      "Worsley, Case 3.3, printed pages 49–50 / PDF pages 62–63"
+    ],
+    "simulation": [
+      "Four fictional role profiles and their meeting authority.",
+      "Dynamic event at minute 6.",
+      "Classroom scenario placed before the final decision."
+    ],
+    "rights_status": "The teacher must confirm permitted classroom use."
+  },
+  "data_policy": {
+    "purpose": "For this classroom discussion, formative feedback and teacher debrief only; not formal grading.",
+    "retention_days": 7,
+    "withdrawal": "You may stop participating and contact the teacher about existing records. Withdrawal does not automatically delete earlier records.",
+    "notice_required": true,
+    "research_use": false
+  }
+}

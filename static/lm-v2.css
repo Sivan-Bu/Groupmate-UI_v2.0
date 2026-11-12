@@ -1,0 +1,29 @@
+/* GroupMate AI 2.0: v1.2 Learning Mall visual language on the live engine. */
+:root{--purple:#7423b5;--pale:#f5edfa;--navy:#10236d;--ink:#24282e;--muted:#656d78;--line:#dfe2e7;--teal:#7423b5;--light-teal:#f5edfa;--paper:#fff;--radius:10px}
+body,.classroom-app{font:15px/1.5 Arial,'Microsoft YaHei',sans-serif!important;color:var(--ink)!important}
+.sidebar{width:252px!important;background:#f8f9fb!important;padding:25px 14px!important}
+.shell{margin-left:252px!important}
+.topbar{min-height:76px;padding:12px 24px!important;flex-wrap:wrap;gap:12px}
+main,#workspace-main{max-width:1540px;padding:32px 40px 80px!important;margin:auto;min-width:0}
+.brand,.brand-ai,.eyebrow,.nav-caption{color:var(--purple)!important}
+.brand-mark{background:var(--purple)!important}
+.workspace{background:#f8f9fb!important}
+.nav-link{padding:12px 13px!important;border-radius:5px!important;font-size:14px!important}
+.nav-link.active,.nav-link:hover{background:#f0e5f8!important;color:var(--purple)!important}
+.nav-link.active{border-left:3px solid var(--purple)}
+.nav-link.active:after{background:var(--purple)!important}
+.card,article,details,.node,.metric-row>div,.course-context-card,.selected-materials{border-color:var(--line)!important;border-radius:10px!important;box-shadow:none!important}
+button.primary,.button.primary,#send,#generate-all-feedback,#login,#join,#run-prep,#publish{background:var(--purple)!important;color:#fff!important;border:1px solid var(--purple)!important}
+button.secondary,.button.secondary{background:#fff!important;border:1px solid #ad79cd!important;color:#6b219e!important}
+button:disabled{opacity:.5;cursor:not-allowed}
+button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #c79ce4!important;outline-offset:3px}
+.studio-nav{display:flex;gap:8px;flex-wrap:wrap;background:#faf7fd;border-left:3px solid var(--purple);padding:12px}
+.studio-nav button{border-radius:0;border:0;border-top:4px solid #ba8bd8;background:transparent;color:var(--purple)}
+.message{border-left:4px solid #9ca5b5!important}.message.ai{border-left-color:var(--purple)!important;background:#fcf9fe!important}
+h1{font-size:30px!important;line-height:1.22!important}h2{font-size:20px!important}h3{font-size:16px!important}
+input,textarea,select{border-color:#cdd2d9!important;color:#27303a!important}
+th{background:#f8f9fb!important;color:#59616c!important}
+[hidden]{display:none!important}
+@media(max-width:930px){.sidebar{width:210px!important}.shell{margin-left:210px!important}.sidebar .brand>span:not(.brand-mark),.sidebar .nav-link span,.sidebar .nav-caption{display:block!important}.sidebar .brand{margin:0 0 20px!important}.sidebar .nav-link{justify-content:flex-start}.sidebar .school-brand{display:block}main,#workspace-main{padding:26px!important}}
+@media(max-width:640px){.sidebar{position:static!important;width:100%!important;height:auto!important;padding:12px!important;border-right:0;border-bottom:1px solid var(--line)}.shell{margin-left:0!important}.sidebar .school-brand,.sidebar .workspace,.sidebar .sidebar-note,.sidebar .profile,.sidebar .nav-caption{display:none!important}.sidebar .brand{margin:0 0 12px!important}.sidebar nav{display:flex;overflow:auto;gap:5px}.sidebar .nav-link{width:auto;flex:none;white-space:nowrap}.topbar{position:static!important;padding:12px!important}.top-actions{flex-wrap:wrap}main,#workspace-main{padding:22px 13px!important}.columns,.grid,.two-column,.hero-grid{grid-template-columns:minmax(0,1fr)!important}h1{font-size:25px!important}}
+@media print{.sidebar,.topbar{display:none!important}.shell{margin:0!important}}
